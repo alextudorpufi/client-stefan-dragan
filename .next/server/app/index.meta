@@ -9,13 +9,14 @@
   "segmentPaths": [
     "/_tree",
     "/_full",
+    "/_index",
     "/__PAGE__"
   ],
   "prefetchHints": {
-    "hints": 49216,
+    "hints": 49152,
     "slots": {
       "children": {
-        "hints": 49312,
+        "hints": 49280,
         "slots": null
       }
     }

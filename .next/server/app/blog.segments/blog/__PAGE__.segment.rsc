@@ -1,0 +1,36 @@
+2:"$Sreact.fragment"
+3:I[7121,[],""]
+4:I[4581,[],""]
+9:"static/chunks/422-fc1deb20457a7f0c.js"
+a:"static/chunks/437-df77b441101c1a02.js"
+b:"static/chunks/app/blog/page-d40ec1745f240611.js"
+c:I[8500,["422","$9","437","$a","831","$b"],""]
+d:I[8437,["422","$9","437","$a","831","$b"],"Image"]
+e:I[209,["422","$9","437","$a","831","$b"],"default"]
+f:I[484,[],"OutletBoundary"]
+10:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[484,[],"$14"]
+16:"MetadataBoundary"
+17:I[484,[],"$16"]
+18:I[6869,[],"IconMark"]
+6:X
+6:C
+7:X
+7:300
+7:C
+13:X
+13:C
+8:[["children",{"s":"__PAGE__","h":49314,"d":{"r":["$","$2","c",{"children":[["$","main",null,{"id":"main-content","className":"blog-page","children":[["$","section",null,{"className":"blog-heading container","children":[["$","p",null,{"className":"eyebrow","children":"Blog / Un timp pentru lectură"}],["$","h1",null,{"children":["Gânduri care deschid",["$","br",null,{}],["$","em",null,{"children":"conversații."}]]}],["$","p",null,{"children":"Articole, reflecții și povești din activitate. De citit în ritmul tău."}]]}],["$","section",null,{"className":"container blog-list","aria-label":"Articole","children":[["$","article","un-spatiu-pentru-dialog",{"className":"post-card post-card-featured","children":["$","$Lc",null,{"href":"/blog/un-spatiu-pentru-dialog","className":"post-card-link","children":[["$","div",null,{"className":"post-card-image","children":["$","$Ld",null,{"src":{"src":"/_next/static/media/workshop1_2.e1a7463f.jpeg","height":1066,"width":1600,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/2wBDAQoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/v/wgARCAAFAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAACWAf8A/8QAHhAAAgEDBQAAAAAAAAAAAAAAAQIDAAQSBQYRUuH/2gAIAQEAAT8ATcWoPYLJnw4mKsewDZ+V/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAEx/9oACAECAQE/AHT/xAAWEQADAAAAAAAAAAAAAAAAAAAAATH/2gAIAQMBAT8AUP/Z","blurWidth":8,"blurHeight":5},"alt":"Ștefan Drăgan discutând cu participanții la un atelier, lângă un flipchart.","fill":true,"placeholder":"blur","sizes":"(max-width: 700px) 100vw, 58vw"}]}],["$","div",null,{"className":"post-card-copy","children":[["$","div",null,{"className":"post-meta","children":[["$","span",null,{"children":"Din activitate"}],["$","span",null,{"className":"demo-label","children":"Exemplu de articol"}]]}],["$","h3",null,{"children":"Un spațiu pentru dialog, întrebări și alegeri"}],["$","p",null,{"children":"O privire asupra unui atelier de grup: conversații, întrebări și timp pentru a asculta perspective diferite."}],["$","div",null,{"className":"post-card-bottom","children":[["$","span",null,{"children":[["$","$Le",null,{"icon":{"name":"book-open","size":24,"node":[["path",{"d":"M12 5v16","key":"1f6ucr"}],["path",{"d":"M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z","key":"1fyvmf"}]]},"size":17,"aria-hidden":"true"}]," Citește articolul"]}],["$","span",null,{"children":[["$","$Le",null,{"icon":{"name":"clock","size":24,"node":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"M12 6v6l4 2","key":"mmk7yg"}]]},"size":14,"aria-hidden":"true"}]," ",1," min"]}]]}]]}]]}]}]]}]]}],null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":"$13","s":"$7"}}]]
+1:[["children",{"s":"blog","h":49218,"d":{"r":["$","$2","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@5","v":"$6","s":"$7"},"c":"$Q8"}]]
+1a:X
+1a:C
+1d:X
+1d:C
+0:{"t":{"t":{"s":"","h":49170,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Blog — Gânduri și conversații | Ștefan Drăgan"}],["$","meta","1",{"name":"description","content":"Articole, reflecții și povești din activitatea lui Ștefan Drăgan. Un loc pentru lectură, întrebări și perspective noi."}],["$","meta","2",{"name":"application-name","content":"Ștefan Drăgan"}],["$","meta","3",{"name":"author","content":"Ștefan Drăgan"}],["$","meta","4",{"name":"creator","content":"Ștefan Drăgan"}],["$","meta","5",{"name":"robots","content":"noindex, follow"}],["$","meta","6",{"property":"og:title","content":"Blog — Gânduri și conversații"}],["$","meta","7",{"property":"og:description","content":"Articole, reflecții și povești din activitatea lui Ștefan Drăgan. Un loc pentru lectură, întrebări și perspective noi."}],["$","meta","8",{"property":"og:locale","content":"ro_RO"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Blog — Gânduri și conversații"}],["$","meta","12",{"name":"twitter:description","content":"Articole, reflecții și povești din activitatea lui Ștefan Drăgan. Un loc pentru lectură, întrebări și perspective noi."}],["$","link","13",{"rel":"icon","href":"/favicon.ico?bd781e1ca1b05dab","type":"image/x-icon","sizes":"16x16"}],["$","link","14",{"rel":"icon","href":"/sd-logo.svg","type":"image/svg+xml","sizes":"any"}],["$","link","15",{"rel":"apple-touch-icon","href":"/apple-icon.png","type":"image/png","sizes":"180x180"}],["$","$L18","16",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":"$1a","s":"$7"}},"a":"$@1b","u":"$@1c","b":"0u5VUBoePjhHTFoolhS-G","r":"$1d"}
+11:null
+1c:false
+1b:null
+5:"$undefined"
+19:"$undefined"
+12:"$undefined"

@@ -4,5 +4,7 @@
   "/apple-icon.png/route": "/apple-icon.png",
   "/favicon.ico/route": "/favicon.ico",
   "/opengraph-image.png/route": "/opengraph-image.png",
-  "/page": "/"
+  "/page": "/",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog"
 }

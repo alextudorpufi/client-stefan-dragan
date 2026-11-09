@@ -27,11 +27,44 @@
       }
     }
   },
-  "/": {
-    "hints": 49216,
+  "/blog/[slug]": {
+    "hints": 49152,
     "slots": {
       "children": {
-        "hints": 49312,
+        "hints": 49216,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "/blog": {
+    "hints": 49152,
+    "slots": {
+      "children": {
+        "hints": 49216,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/": {
+    "hints": 49152,
+    "slots": {
+      "children": {
+        "hints": 49280,
         "slots": null
       }
     }

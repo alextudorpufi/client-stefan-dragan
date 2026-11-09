@@ -1,5 +1,20 @@
 import { Brand } from "./brand";
+import { ChevronUp } from "lucide-react";
+import { ContactLinks } from "./contact-links";
+import Link from "next/link";
 
 export function SiteFooter() {
-  return <footer className="site-footer"><div className="container footer-top"><Brand /><p>Cu timp pentru ceea ce contează.</p><a href="https://www.instagram.com/stefandragan.psih/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div><div className="container footer-bottom"><span>© Ștefan Drăgan</span><span>Un spațiu pentru tine.</span><a href="#top">Înapoi sus ↑</a></div></footer>;
+  return (
+    <footer className="site-footer">
+      <div className="container footer-top">
+        <Brand />
+        <p>Psihoterapie și evaluare clinică online.</p>
+        <ContactLinks variant="footer" />
+      </div>
+      <div className="container footer-bottom">
+        <span>© Ștefan Drăgan</span><Link href="/blog">Blog</Link>
+        <a href="#top">Înapoi sus <ChevronUp size={14} aria-hidden="true" /></a>
+      </div>
+    </footer>
+  );
 }

@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import "./globals.css";
+import "./blog.css";
 
 const display = Cormorant_Garamond({ variable: "--font-display", subsets: ["latin", "latin-ext"], weight: ["400", "500"], style: ["normal", "italic"], display: "swap" });
 const sans = Inter({ variable: "--font-body", subsets: ["latin", "latin-ext"], display: "swap" });

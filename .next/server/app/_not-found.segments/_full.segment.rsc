@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:"static/chunks/437-8404d7cdd819d4d4.js"
+3:"static/chunks/app/page-4ae38af9be94a827.js"
+4:I[8437,["437","$2","974","$3"],"Image"]
+5:I[7121,[],""]
+6:I[4581,[],""]
+b:I[484,[],"OutletBoundary"]
+c:"$Sreact.suspense"
+f:"ViewportBoundary"
+10:I[484,[],"$f"]
+12:"MetadataBoundary"
+13:I[484,[],"$12"]
+16:I[7123,[],"default",1]
+:HL["/_next/static/media/48410f3df60da620-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7b89a4fd5e90ede0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8e9860b6e62d6359-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e18f83c737786aa7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e74f24ed7f0e4323-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/dd01b79f67f2f983.css","style"]
+7:X
+9:X
+e:X
+a:[["children",{"s":"__PAGE__","h":514,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],null,["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"p":true,"v":"$e"}}]]
+8:[["children",{"s":"_not-found","h":514,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":true,"v":"$9"},"c":"$Qa"}]]
+15:X
+17:X
+18:X
+0:{"P":null,"c":["","_not-found"],"q":"","i":false,"t":{"t":{"s":"","h":530,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/dd01b79f67f2f983.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ro","className":"__variable_e272a7 __variable_65423c","children":["$","body",null,{"id":"top","children":[["$","a",null,{"className":"skip-link","href":"#main-content","children":"Sari la conținut"}],["$","header",null,{"className":"site-header","children":["$","div",null,{"className":"container header-inner","children":[["$","a",null,{"className":"brand","href":"/","aria-label":"Ștefan Drăgan — acasă","children":[["$","$L4",null,{"src":"/sd-logo.svg","alt":"","width":44,"height":44,"className":"brand-mark"}],["$","span",null,{"children":["Ștefan Drăgan",["$","span",null,{"className":"brand-caption","children":"SPAȚIU PENTRU CONVERSAȚIE"}]]}]]}],["$","nav",null,{"aria-label":"Navigare principală","children":[["$","a",null,{"href":"/#despre","children":"Despre"}],["$","a",null,{"href":"/#prima-sedinta","children":"Prima ședință"}],["$","a",null,{"className":"nav-contact","href":"/#contact","children":["Să vorbim ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}]]}]}],["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"container footer-top","children":[["$","a",null,{"className":"brand","href":"/","aria-label":"Ștefan Drăgan — acasă","children":[["$","$L4",null,{"src":"/sd-logo.svg","alt":"","width":44,"height":44,"className":"brand-mark"}],["$","span",null,{"children":["Ștefan Drăgan",["$","span",null,{"className":"brand-caption","children":"SPAȚIU PENTRU CONVERSAȚIE"}]]}]]}],["$","p",null,{"children":"Cu timp pentru ceea ce contează."}],["$","a",null,{"href":"https://www.instagram.com/stefandragan.psih/","target":"_blank","rel":"noopener noreferrer","children":["Instagram ",["$","span",null,{"aria-hidden":"true","children":"↗"}]]}]]}],["$","div",null,{"className":"container footer-bottom","children":[["$","span",null,{"children":"© Ștefan Drăgan"}],["$","span",null,{"children":"Un spațiu pentru tine."}],["$","a",null,{"href":"#top","children":"Înapoi sus ↑"}]]}]]}]]}]}]]}],"p":true,"v":"$7"},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$c",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":true,"v":"$15"}},"m":"$undefined","G":["$16",[]],"S":true,"r":"$17","s":"$18","a":"$@19","l":"$undefined","p":"$undefined","d":"$undefined","b":"bHAmMrB3nBJ9Nybz23SnA","u":"$@1a"}
+9:C
+18:300
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1b:I[6869,[],"IconMark"]
+d:null
+14:[["$","title","0",{"children":"Ștefan Drăgan — Un spațiu pentru tine"}],["$","meta","1",{"name":"description","content":"Un spațiu pentru conversație cu Ștefan Drăgan. Cu timp, cu grijă și cu deschidere, în ritmul tău."}],["$","meta","2",{"name":"application-name","content":"Ștefan Drăgan"}],["$","meta","3",{"name":"author","content":"Ștefan Drăgan"}],["$","meta","4",{"name":"creator","content":"Ștefan Drăgan"}],["$","meta","5",{"name":"robots","content":"noindex, follow"}],["$","meta","6",{"property":"og:title","content":"Ștefan Drăgan — Un spațiu pentru tine"}],["$","meta","7",{"property":"og:description","content":"Un spațiu pentru conversație cu Ștefan Drăgan. Cu timp, cu grijă și cu deschidere, în ritmul tău."}],["$","meta","8",{"property":"og:site_name","content":"Ștefan Drăgan"}],["$","meta","9",{"property":"og:locale","content":"ro_RO"}],["$","meta","10",{"property":"og:image","content":"http://localhost:3000/opengraph-image.png?2187976df63c0a2a"}],["$","meta","11",{"property":"og:image:type","content":"image/png"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:image:alt","content":"Ștefan Drăgan — Un spațiu pentru tine. Portret și monograma SD pe un fundal albastru.\n"}],["$","meta","15",{"property":"og:type","content":"website"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Ștefan Drăgan — Un spațiu pentru tine"}],["$","meta","18",{"name":"twitter:description","content":"Un spațiu pentru conversație cu Ștefan Drăgan. Cu timp, cu grijă și cu deschidere, în ritmul tău."}],["$","meta","19",{"name":"twitter:image","content":"http://localhost:3000/opengraph-image.png?2187976df63c0a2a"}],["$","meta","20",{"name":"twitter:image:alt","content":"Ștefan Drăgan — Un spațiu pentru tine. Portret și monograma SD pe un fundal albastru.\n"}],["$","meta","21",{"name":"twitter:image:type","content":"image/png"}],["$","meta","22",{"name":"twitter:image:width","content":"1200"}],["$","meta","23",{"name":"twitter:image:height","content":"630"}],["$","link","24",{"rel":"icon","href":"/favicon.ico?bd781e1ca1b05dab","type":"image/x-icon","sizes":"16x16"}],["$","link","25",{"rel":"icon","href":"/sd-logo.svg","type":"image/svg+xml","sizes":"any"}],["$","link","26",{"rel":"apple-touch-icon","href":"/apple-icon.png","type":"image/png","sizes":"180x180"}],["$","$L1b","27",{}]]
+18:C
+15:C
+17:C
+e:C
+7:C
+1a:false
+19:null

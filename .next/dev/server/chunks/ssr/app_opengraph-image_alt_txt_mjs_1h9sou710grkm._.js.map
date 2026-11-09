@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/alextudor/Desktop/Clients/client-stefan-dragan/app/opengraph-image.alt.txt.mjs%20(text%20content)"],"sourcesContent":["export default \"Ștefan Drăgan — Un spațiu pentru tine. Portret și monograma SD pe un fundal albastru.\\n\";"],"names":[],"mappings":";;;;uCAAe"}}]
-}

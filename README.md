@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ștefan Drăgan — therapist website
 
-## Getting Started
+Romanian landing page and blog built with Next.js App Router, React, TypeScript, and Lucide icons. Styling is in CSS; the shared header and footer are mounted in the root layout.
 
-First, run the development server:
+## Local setup
 
-```bash
+Use the Node version in `.nvmrc` and npm with the committed `package-lock.json`.
+
+```sh
+nvm use
+npm ci
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. `next dev`, `next build`, and `next typegen` generate `next-env.d.ts` and route types; these generated files are intentionally ignored by Git.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Validation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm run check
+npm run build
+```
 
-## Learn More
+`check` runs ESLint and generates Next.js route types before running TypeScript. The GitHub Actions workflow runs these checks and a production build on pushes and pull requests.
 
-To learn more about Next.js, take a look at the following resources:
+The production build exports the site to `out/`. To preview those files locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npx serve out
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If your local environment blocks Turbopack's worker processes, use `npm run build -- --webpack`. Both builds may need network access to download Google Fonts; the fonts are self-hosted in the resulting application.
 
-## Deploy on Vercel
+## Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+app/
+  page.tsx              Landing page
+  layout.tsx            Shared shell, fonts, and metadata
+  globals.css           Site styling
+  blog.css              Blog and article styling
+  blog/page.tsx         Blog listing
+  blog/[slug]/          Article page and article-specific 404
+  not-found.tsx         Site-wide 404
+  robots.ts             Search crawler rules
+  sitemap.ts            Production URLs, including non-demo articles
+components/             Reusable site and content components
+lib/
+  contact.ts            Booking, phone, and social destinations
+  posts.ts              Article content, images, and optional galleries
+  site.ts               Production URL and indexing configuration
+public/                 Portrait, workshop photos, and logo assets
+.github/workflows/      Automated project validation
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Editing content
+
+- Edit landing-page copy in `app/page.tsx`.
+- Edit contact destinations once in `lib/contact.ts`; shared components use them throughout the site.
+- Add a `BlogPost` entry in `lib/posts.ts` for each article. Include a unique slug, title, description, category, main image with alt text, and body sections. Section headings, sources, linked tags, and galleries are optional.
+- Article URLs are generated from the slug. Preserve existing slugs when revising copy so shared links continue working.
+- Set `isDemo: true` for demonstration content. Demo articles display a label, stay out of the sitemap, and receive `noindex` metadata. Omit the flag for final content.
+- The portrait is `public/terapeutProfilePic.jpeg`; the current activity post uses `workshop1_1.jpeg` as its main photo.
+
+## Deployment and search indexing
+
+### Cloudflare Pages
+
+Connect the GitHub repository and use these build settings:
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Framework preset | Next.js (Static HTML Export) |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Root directory | Leave blank (repository root) |
+| `NODE_VERSION` | `22.23.1` (also pinned in `.nvmrc`) |
+
+The site uses `output: "export"`. Articles, robots rules, and the sitemap are generated at build time. Images are served as static files; Next.js server image optimization and `next start` are unavailable with this output mode. Push changes to `main` to trigger a production deployment; other branches produce previews.
+
+Configure environment variables in your hosting provider before building:
+
+| Variable | Development / preview | Public production |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Blank | Confirmed absolute website origin |
+| `SITE_INDEXABLE` | `false` | `true` when ready for indexing |
+
+Rebuild after changing these values: canonical links, social metadata, robots rules, and the sitemap are generated from them. Indexing requires both a domain and `SITE_INDEXABLE=true`. Previews disallow crawling and return an empty sitemap. Their `noindex` metadata is a crawler instruction, not access control.
+
+On production, check `/robots.txt`, `/sitemap.xml`, an article's social preview, booking links, and the phone link. The site currently offers online sessions only; the address in the external professional directory is not a consulting location.
+
+Keep `.env.local`, dependencies, and build output out of Git. Commit source files, `.env.example`, and `package-lock.json`.
